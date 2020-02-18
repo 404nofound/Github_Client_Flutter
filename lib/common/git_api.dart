@@ -1,9 +1,8 @@
 import 'dart:convert';
 import 'dart:io';
-
 import 'package:dio/adapter.dart';
 import 'package:dio/dio.dart';
-import 'package:github_client_app/index.dart';
+import '../index.dart';
 
 class Git {
   // 在网络请求过程中可能会需要使用当前的context信息，比如在请求失败时

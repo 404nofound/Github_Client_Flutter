@@ -1,4 +1,4 @@
-import 'package:github_client_app/index.dart';
+import '../index.dart';
 
 class ProfileChangeNotifier extends ChangeNotifier {
   Profile get _profile => Global.profile;
